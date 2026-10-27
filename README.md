@@ -55,7 +55,7 @@ flowchart LR
 - **Segunda verificação**: a página de cada número refaz a conta no navegador, de forma independente do servidor.
 - **Modelo EAV** para as tábuas do 777 (caminho × coluna → valor), com o texto original em inglês guardado ao lado
   da tradução.
-- **Testes**: 76 testes com `pytest` (guematria, cifras, quadrados mágicos, banco, API, modo público).
+- **Testes**: 77 testes com `pytest` (guematria, cifras, quadrados mágicos, banco, API, modo público).
 
 ## Rodando localmente
 

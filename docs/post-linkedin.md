@@ -16,7 +16,7 @@ O que construí:
 🔹 Validação com a própria regra do domínio: na guematria, cada letra hebraica tem um valor, então um verbete só entra no banco se as letras somarem o número sob o qual ele aparece — 2.327 validados e 79 erros do PDF corrigidos
 🔹 Um banco SQLite com as tábuas de correspondência (modelo EAV), o Sefer Yetzirah (via Sefaria) e os 78 arcanos do Tarô
 🔹 Uma API em Flask e uma interface em JavaScript puro: Árvore da Vida em SVG, consulta ao Tarô (1 carta, 3 cartas e Cruz Celta), sigilos nos quadrados de Agrippa e a Tábua de Esmeralda em latim, grego e português
-🔹 76 testes automatizados com pytest
+🔹 77 testes automatizados com pytest
 
 Stack: Python · SQL · Flask · JavaScript · SVG
 
