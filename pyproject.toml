@@ -1,0 +1,9 @@
+[project]
+name = "DWTW93"
+version = "1.0.0"
+description = "DWTW93 — dicionário cabalístico interativo (Liber 777, Sepher Sephiroth, Tarô e sigilos)"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

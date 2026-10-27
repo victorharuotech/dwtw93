@@ -1,0 +1,14 @@
+# Deploy no Render (https://render.com) — plano gratuito.
+# No painel: New + → Blueprint → escolha este repositório. O resto vem daqui.
+services:
+  - type: web
+    name: dwtw93                      # o Render usa minúsculas no endereço: dwtw93.onrender.com
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt && python -m cabala criar
+    startCommand: gunicorn cabala.web:app --workers 2 --timeout 60
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: DWTW_PUBLICO             # esconde os dados do HKT até a autorização dos autores
+        value: "1"

@@ -1,0 +1,15 @@
+# Banco gerado por `python -m cabala criar`
+cabala.db
+
+# Dados com copyright (Hermetic Kabbalah Tarot): só locais, até a autorização dos autores
+cabala/dados/privado/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Sistema e editores
+.DS_Store
+.claude/

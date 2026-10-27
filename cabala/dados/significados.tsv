@@ -1,0 +1,79 @@
+id	titulo	palavras
+maior-00	Espírito do Éter	começo, liberdade, espontaneidade, o salto no desconhecido
+maior-01	Mago do Poder	vontade, habilidade, iniciativa, comunicação
+maior-02	Princesa da Estrela de Prata	intuição, mistério, conhecimento oculto, receptividade
+maior-03	Filha dos Poderosos	fertilidade, abundância, criatividade, natureza
+maior-04	Filho da Manhã, Chefe entre os Poderosos	autoridade, estrutura, ordem, liderança
+maior-05	Mago dos Deuses Eternos	tradição, ensino, fé, iniciação
+maior-06	Filhos da Voz Divina, Oráculos dos Deuses Poderosos	escolha, união, amor, valores
+maior-07	Filho dos Poderes das Águas, Senhor do Triunfo da Luz	vitória, determinação, domínio, avanço
+maior-08	Filha da Espada Flamejante, Líder do Leão	coragem, domínio de si, paixão canalizada
+maior-09	Mago da Voz da Luz, Profeta dos Deuses	introspecção, sabedoria, busca interior, prudência
+maior-10	Senhor das Forças da Vida	ciclos, destino, mudança, sorte
+maior-11	Filha dos Senhores da Verdade, Regente da Balança	equilíbrio, verdade, causa e efeito, decisão
+maior-12	Espírito das Águas Poderosas	entrega, nova perspectiva, sacrifício, pausa
+maior-13	Filho dos Grandes Transformadores, Senhor dos Portões da Morte	transformação, fim de ciclo, renovação
+maior-14	Filha dos Reconciliadores, Portadora da Vida	moderação, alquimia, integração, paciência
+maior-15	Senhor dos Portões da Matéria, Filho das Forças do Tempo	apego, matéria, tentação, instinto
+maior-16	Senhor das Hostes dos Poderosos	ruptura, revelação súbita, queda do que é falso
+maior-17	Filha do Firmamento, Habitante entre as Águas	esperança, inspiração, cura, fé
+maior-18	Regente do Fluxo e do Refluxo, Filho dos Filhos dos Poderosos	ilusão, sonhos, inconsciente, medo
+maior-19	Senhor do Fogo do Mundo	clareza, alegria, sucesso, vitalidade
+maior-20	Espírito do Fogo Primordial	despertar, chamado, renascimento, avaliação
+maior-21	O Grande da Noite do Tempo	realização, totalidade, conclusão, integração
+paus-01	Raiz dos Poderes do Fogo	energia nova, inspiração, vontade, o impulso de começar
+paus-02	Senhor do Domínio	planejamento, ousadia, poder sobre o próprio caminho
+paus-03	Senhor da Força Estabelecida	expansão, primeiros resultados, visão de longo prazo
+paus-04	Senhor da Obra Perfeita	conclusão, celebração, estabilidade conquistada
+paus-05	Senhor da Luta	competição, conflito, disputa de forças
+paus-06	Senhor da Vitória	vitória, reconhecimento, confiança
+paus-07	Senhor do Valor	coragem diante da oposição, defesa da posição
+paus-08	Senhor da Rapidez	rapidez, notícias, movimento, comunicação
+paus-09	Senhor da Grande Força	resistência, persistência, força reservada
+paus-10	Senhor da Opressão	sobrecarga, responsabilidade, força mal empregada
+paus-11	Princesa da Chama Brilhante, Rosa do Palácio do Fogo	entusiasmo, ousadia, mensagens, ideias novas
+paus-12	Príncipe da Carruagem do Fogo	ação rápida, impetuosidade, aventura
+paus-13	Rainha dos Tronos da Chama	confiança, magnetismo, generosidade, determinação
+paus-14	Senhor da Chama e do Relâmpago, Rei dos Espíritos do Fogo	liderança, visão, iniciativa, energia dominante
+copas-01	Raiz dos Poderes da Água	amor nascente, emoção, intuição, abertura
+copas-02	Senhor do Amor	união, parceria, atração, reciprocidade
+copas-03	Senhor da Abundância	celebração, amizade, alegria compartilhada
+copas-04	Senhor do Prazer Misturado	insatisfação, apatia, introspecção emocional
+copas-05	Senhor da Perda no Prazer	perda, desilusão, arrependimento
+copas-06	Senhor do Prazer	harmonia, nostalgia, prazer, boa vontade
+copas-07	Senhor do Sucesso Ilusório	ilusão, fantasia, escolhas confusas, excesso
+copas-08	Senhor do Sucesso Abandonado	partida, desapego, busca de algo mais profundo
+copas-09	Senhor da Felicidade Material	satisfação, desejo realizado, contentamento
+copas-10	Senhor do Sucesso Perpétuo	plenitude emocional, família, harmonia duradoura
+copas-11	Princesa das Águas e do Lótus	sensibilidade, imaginação, mensagens afetivas
+copas-12	Príncipe da Carruagem das Águas	romantismo, ideal, convite, sedução
+copas-13	Rainha dos Tronos das Águas	empatia, intuição, acolhimento, reflexo
+copas-14	Senhor das Ondas e das Águas, Rei das Hostes do Mar	maturidade emocional, diplomacia, cuidado
+espadas-01	Raiz dos Poderes do Ar	clareza, verdade, intelecto, decisão cortante
+espadas-02	Senhor da Paz Restaurada	trégua, equilíbrio frágil, decisão adiada
+espadas-03	Senhor da Tristeza	mágoa, separação, dor que esclarece
+espadas-04	Senhor do Descanso da Luta	descanso, recuperação, retiro, trégua
+espadas-05	Senhor da Derrota	derrota, conflito desonroso, perda
+espadas-06	Senhor do Sucesso Merecido	transição, ciência, solução de problemas
+espadas-07	Senhor do Esforço Instável	esforço incerto, estratégia, astúcia, fuga
+espadas-08	Senhor da Força Encurtada	limitação, indecisão, interferência
+espadas-09	Senhor do Desespero e da Crueldade	angústia, medo, pensamentos que ferem
+espadas-10	Senhor da Ruína	fim doloroso, ruína, o fundo do poço
+espadas-11	Princesa dos Ventos Impetuosos, Lótus do Palácio do Ar	vigilância, curiosidade, mente afiada
+espadas-12	Príncipe das Carruagens dos Ventos	ideias velozes, argumentação, pressa
+espadas-13	Rainha dos Tronos do Ar	discernimento, independência, franqueza
+espadas-14	Senhor do Vento e das Brisas, Rei dos Espíritos do Ar	autoridade intelectual, justiça, julgamento
+ouros-01	Raiz dos Poderes da Terra	prosperidade nascente, oportunidade concreta, corpo
+ouros-02	Senhor da Mudança Harmoniosa	adaptação, equilíbrio, alternância
+ouros-03	Senhor das Obras Materiais	trabalho, habilidade, construção conjunta
+ouros-04	Senhor do Poder Terreno	segurança, posse, controle, conservação
+ouros-05	Senhor do Problema Material	preocupação, escassez, dificuldade material
+ouros-06	Senhor do Sucesso Material	generosidade, troca justa, sucesso
+ouros-07	Senhor do Sucesso Não Realizado	paciência, colheita incerta, reavaliação
+ouros-08	Senhor da Prudência	diligência, aprendizado, trabalho cuidadoso
+ouros-09	Senhor do Ganho Material	conforto, independência, ganho
+ouros-10	Senhor da Riqueza	riqueza, herança, estabilidade duradoura
+ouros-11	Princesa das Colinas Ecoantes, Rosa do Palácio da Terra	estudo, aplicação, oportunidade nova
+ouros-12	Príncipe da Carruagem da Terra	constância, método, responsabilidade
+ouros-13	Rainha dos Tronos da Terra	cuidado prático, fertilidade, segurança
+ouros-14	Senhor da Terra Vasta e Fértil, Rei dos Espíritos da Terra	prosperidade, realização material, firmeza

@@ -1,0 +1,562 @@
+coluna	linha	valor
+3	0	Nada ; Sem Limite ; Luz Ilimitada (L.V.X.)
+3	1	Coroa
+3	2	Sabedoria
+3	3	Entendimento
+3	4	Misericórdia
+3	5	Força
+3	6	Beleza
+3	7	Vitória
+3	8	Esplendor
+3	9	Fundamento
+3	10	Reino
+3	11	Boi
+3	12	Casa
+3	13	Camelo
+3	14	Porta
+3	15	Janela
+3	16	Prego
+3	17	Espada
+3	18	Cerca
+3	19	Serpente
+3	20	Mão
+3	21	Palma da mão
+3	22	Aguilhão de boi
+3	23	Água
+3	24	Peixe
+3	25	Esteio
+3	26	Olho
+3	27	Boca
+3	28	Anzol
+3	29	Nuca
+3	30	Cabeça
+3	31	Dente
+3	32	Tau (a cruz egípcia)
+6	12	[Os planetas seguem as Sefirot, correspondentemente]
+7	1	Esfera do Primum Mobile
+7	2	Esfera do Zodíaco
+7	3	Esfera de Saturno
+7	4	Esfera de Júpiter
+7	5	Esfera de Marte
+7	6	Esfera do Sol
+7	7	Esfera de Vênus
+7	8	Esfera de Mercúrio
+7	9	Esfera da Lua
+7	10	Esfera dos Elementos
+7	11	Ar
+7	12	Mercúrio
+7	13	Lua
+7	14	Vênus
+7	15	Áries
+7	16	Touro
+7	17	Gêmeos
+7	18	Câncer
+7	19	Leão
+7	20	Virgem
+7	21	Júpiter
+7	22	Libra
+7	23	Água
+7	24	Escorpião
+7	25	Sagitário
+7	26	Capricórnio
+7	27	Marte
+7	28	Aquário
+7	29	Peixes
+7	30	Sol
+7	31	Fogo
+7	32	Saturno
+7	32b	Terra
+7	31b	Espírito
+8	11	[Elementos. Ver a col. LXVIII.]
+8	12	[Os planetas seguem as Sefirot]
+13	1	Inteligência Admirável ou Oculta
+13	2	Inteligência Iluminadora
+13	3	Inteligência Santificadora
+13	4	Inteligência Mensuradora, Coesiva ou Receptiva
+13	5	Inteligência Radical
+13	6	Inteligência da Influência Mediadora
+13	7	Inteligência Oculta ou Escondida
+13	8	Inteligência Absoluta ou Perfeita
+13	9	Inteligência Pura ou Clara
+13	10	Inteligência Resplandecente
+13	11	Inteligência Cintilante
+13	12	Inteligência da Transparência
+13	13	Inteligência Unificadora
+13	14	Inteligência Iluminadora
+13	15	Inteligência Constituinte
+13	16	Inteligência Triunfal ou Eterna
+13	17	Inteligência Dispositora
+13	18	Inteligência da Casa da Influência
+13	19	Inteligência de Todas as Atividades do Ser Espiritual
+13	20	Inteligência da Vontade
+13	21	Inteligência da Conciliação
+13	22	Inteligência Fiel
+13	23	Inteligência Estável
+13	24	Inteligência Imaginativa
+13	25	Inteligência da Provação, ou Tentativa
+13	26	Inteligência Renovadora
+13	27	Inteligência Excitante
+13	28	Inteligência Natural
+13	29	Inteligência Corpórea
+13	30	Inteligência Coletora
+13	31	Inteligência Perpétua
+13	32	Inteligência Administrativa
+14	1	Os 4 Ases
+14	2	Os 4 Dois — Reis ou Cavaleiros
+14	3	Os 4 Três — Rainhas
+14	4	Os 4 Quatro
+14	5	Os 4 Cinco
+14	6	Os 4 Seis — Imperadores ou Príncipes
+14	7	Os 4 Sete
+14	8	Os 4 Oito
+14	9	Os 4 Nove
+14	10	Os 4 Dez — Imperatrizes ou Princesas
+14	11	O Louco — [Espadas] Imperadores ou Príncipes
+14	12	O Prestidigitador (O Mago)
+14	13	A Alta Sacerdotisa
+14	14	A Imperatriz
+14	15	O Imperador
+14	16	O Hierofante
+14	17	Os Enamorados
+14	18	O Carro
+14	19	A Força
+14	20	O Eremita
+14	21	A Roda da Fortuna
+14	22	A Justiça
+14	23	O Enforcado — [Copas] Rainhas
+14	24	A Morte
+14	25	A Temperança
+14	26	O Diabo
+14	27	A Casa de Deus (A Torre)
+14	28	A Estrela
+14	29	A Lua
+14	30	O Sol
+14	31	O Anjo ou o Juízo Final — [Paus] Reis ou Cavaleiros
+14	32	O Universo
+14	32b	Imperatrizes [Ouros]
+14	31b	Os 22 Trunfos
+15	1	Brilho
+15	2	Azul suave e puro
+15	3	Carmesim
+15	4	Violeta profundo
+15	5	Laranja
+15	6	Rosa claro
+15	7	Âmbar
+15	8	Violeta púrpura
+15	9	Índigo
+15	10	Amarelo
+15	11	Amarelo pálido brilhante
+15	12	Amarelo
+15	13	Azul
+15	14	Verde-esmeralda
+15	15	Escarlate
+15	16	Vermelho-alaranjado
+15	17	Laranja
+15	18	Âmbar
+15	19	Amarelo esverdeado
+15	20	Verde amarelado
+15	21	Violeta
+15	22	Verde-esmeralda
+15	23	Azul profundo
+15	24	Verde-azulado
+15	25	Azul
+15	26	Índigo
+15	27	Escarlate
+15	28	Violeta
+15	29	Carmesim (ultravioleta)
+15	30	Laranja
+15	31	Escarlate alaranjado incandescente
+15	32	Índigo
+15	32b	Citrino, castanho-avermelhado, oliva e preto (em quartos)
+15	31b	Branco, fundindo-se em cinza
+16	1	Brilho branco
+16	2	Cinza
+16	3	Preto
+16	4	Azul
+16	5	Vermelho escarlate
+16	6	Amarelo (ouro)
+16	7	Esmeralda
+16	8	Laranja
+16	9	Violeta
+16	10	Citrino, oliva, castanho-avermelhado e preto
+16	11	Azul-celeste
+16	12	Púrpura
+16	13	Prata
+16	14	Azul-celeste
+16	15	Vermelho
+16	16	Índigo profundo
+16	17	Malva pálido
+16	18	Grená
+16	19	Púrpura profundo
+16	20	Cinza-ardósia
+16	21	Azul
+16	22	Azul
+16	23	Verde-mar
+16	24	Marrom fosco
+16	25	Amarelo
+16	26	Preto
+16	27	Vermelho
+16	28	Azul-celeste
+16	29	Camurça, salpicado de branco-prateado
+16	30	Amarelo-ouro
+16	31	Vermelhão
+16	32	Preto
+16	32b	Âmbar
+16	31b	Púrpura profundo (quase preto)
+17	1	Brilho branco
+17	2	Cinza-pérola azulado, como madrepérola
+17	3	Marrom escuro
+17	4	Púrpura profundo
+17	5	Escarlate brilhante
+17	6	Salmão intenso
+17	7	Verde-amarelado brilhante
+17	8	Castanho-avermelhado
+17	9	Púrpura muito escuro
+17	10	Como na escala da Rainha, mas salpicado de ouro
+17	11	Verde-esmeralda azulado
+17	12	Cinza
+17	13	Azul pálido e frio
+17	14	Verde de início de primavera
+17	15	Chama brilhante
+17	16	Oliva quente e profundo
+17	17	Couro amarelo novo
+17	18	Castanho-avermelhado vivo
+17	19	Cinza
+17	20	Verde-acinzentado
+17	21	Púrpura intenso
+17	22	Verde-azulado profundo
+17	23	Verde-oliva profundo
+17	24	Marrom muito escuro
+17	25	Verde
+17	26	Preto-azulado
+17	27	Vermelho veneziano
+17	28	Malva azulado
+17	29	Marrom rosado, claro e translúcido
+17	30	Âmbar intenso
+17	31	Escarlate, salpicado de ouro
+17	32	Preto-azulado
+17	32b	Marrom escuro
+17	31b	As 7 cores prismáticas, com o violeta por fora
+18	1	Branco salpicado de ouro
+18	2	Branco, salpicado de vermelho, azul e amarelo
+18	3	Cinza salpicado de rosa
+18	4	Azul-celeste profundo salpicado de amarelo
+18	5	Vermelho salpicado de preto
+18	6	Âmbar dourado
+18	7	Oliva salpicado de ouro
+18	8	Marrom-amarelado salpicado de branco
+18	9	Citrino salpicado de azul-celeste
+18	10	Preto raiado de amarelo
+18	11	Esmeralda salpicada de ouro
+18	12	Índigo raiado de violeta
+18	13	Prata raiada de azul-celeste
+18	14	Rosa-cereja brilhante raiado de amarelo pálido
+18	15	Vermelho incandescente
+18	16	Marrom intenso
+18	17	Cinza avermelhado tendendo ao malva
+18	18	Marrom esverdeado escuro
+18	19	Âmbar avermelhado
+18	20	Cor de ameixa
+18	21	Azul brilhante raiado de amarelo
+18	22	Verde pálido
+18	23	Branco salpicado de púrpura
+18	24	Marrom índigo lívido (como um besouro preto)
+18	25	Azul vivo escuro
+18	26	Cinza escuro e frio, quase preto
+18	27	Vermelho brilhante raiado de azul-celeste ou laranja
+18	28	Branco tingido de púrpura
+18	29	Cor de pedra
+18	30	Âmbar raiado de vermelho
+18	31	Vermelhão salpicado de carmesim e esmeralda
+18	32	Preto raiado de azul
+18	32b	Preto e amarelo
+18	31b	Branco, vermelho, amarelo, azul, preto (este por fora)
+19	0	Harpócrates, Amon, Nuith [[Nuit e Hadit]]
+19	1	Ptah, Asar un Nefer, Hadith [[Heru-Ra-Ha]]
+19	2	Amon, Thoth, Nuith [Zodíaco]
+19	3	Maut, Ísis, Néftis
+19	4	Amon, Ísis [[Hathoor]]
+19	5	Hórus, Néftis
+19	6	Asar, Rá [[On, Hrumachis]]
+19	7	Hathoor
+19	8	Anúbis
+19	9	Shu [[Hermanúbis, todos os deuses exclusivamente fálicos]]
+19	10	Seb. Ísis e Néftis inferiores (isto é, não desposadas). [[A Esfinge como síntese dos Elementos]]
+19	11	Nu [[Hoor-pa-kraat como ATU 0]]
+19	12	Thoth e o Cinocéfalo
+19	13	Chomse
+19	14	Hathor
+19	15	Men Thu
+19	16	Asar, Ameshet, Ápis
+19	17	Várias divindades gêmeas, Rekht, Merti etc. [[Heru-Ra-Ha]]
+19	18	Khephra
+19	19	Ra-Hoor-Khuit, Pasht, Sekhet, Mau
+19	20	Ísis [como Virgem]
+19	21	Amon-Rá
+19	22	Ma
+19	23	Tum, Ptah, Auramoth (como Água), Asar (como o Enforcado), Hekar, Ísis [[Hathor]]
+19	24	Deusas Merti, Tifão, Apep, Khephra
+19	25	Néftis
+19	26	Khem (Set)
+19	27	Hórus
+19	28	Ahepi, Aroueris
+19	29	Khephra (como o escaravelho do trunfo do Tarô)
+19	30	Rá e muitos outros
+19	31	Thoum-Aesh-Neith, Mau, Kabeshunt, Hórus, Tarpesheth
+19	32	Sebek, Mako
+19	32b	Satem, Ahapshi, Néftis, Ameshet
+19	31b	Asar
+34	0	Pã
+34	1	Zeus, Iaco
+34	2	Atena, Urano [[Hermes]]
+34	3	Cibele, Deméter, Reia, Hera, [[Psiquê, Cronos]]
+34	4	Poseidon [[Zeus]]
+34	5	Ares, Hades
+34	6	Iaco, Apolo, Adônis [[Dioniso, Baco]]
+34	7	Afrodite, Nice
+34	8	Hermes
+34	9	Zeus (como Ar), Diana de Éfeso (como pedra fálica [[e Lua]]) [[Eros]]
+34	10	Perséfone, [Adônis], Psiquê
+34	11	Zeus
+34	12	Hermes
+34	13	Ártemis, Hécate
+34	14	Afrodite
+34	15	Atena
+34	16	[Hera]
+34	17	Castor e Pólux, Apolo, o Adivinho [[Eros]]
+34	18	Apolo, o Auriga
+34	19	Deméter [levada por leões]
+34	20	[Átis]
+34	21	Zeus
+34	22	Têmis, Minos, Éaco e Radamanto
+34	23	Poseidon
+34	24	Ares [[Apolo Pítio, Tânatos]]
+34	25	Apolo, Ártemis (caçadores)
+34	26	Pã, Príapo [Hermes ereto e Baco]
+34	27	Ares, [[Atena]]
+34	28	[Atena] Ganimedes
+34	29	Poseidon [[Hermes Psicopompo]]
+34	30	Hélio, Apolo
+34	31	Hades
+34	32	[Atena]
+34	32b	[Deméter] [[Gaia]]
+34	31b	Iaco
+35	1	Júpiter
+35	2	Jano [[Mercúrio]]
+35	3	Juno, Cibele, Hécate etc.
+35	4	Júpiter [[Libitina]]
+35	5	Marte
+35	6	Apolo [[Baco, Aurora]]
+35	7	Vênus
+35	8	Mercúrio
+35	9	Diana (como Lua) [[Término, Júpiter]]
+35	10	Ceres
+35	11	Júpiter [[Juno, Éolo]]
+35	12	Mercúrio
+35	13	Diana
+35	14	Vênus
+35	15	Marte, Minerva
+35	16	Vênus [[Himeneu]]
+35	17	Castor e Pólux, [Jano] [[Himeneu]]
+35	18	Mercúrio [[Lares e Penates]]
+35	19	Vênus (reprimindo o fogo de Vulcano)
+35	20	[Átis], Ceres, Adônis [[Vesta, Flora]]
+35	21	Júpiter, [Plutão]
+35	22	Vulcano [[Vênus, Nêmesis]]
+35	23	Netuno [[Reia]]
+35	24	Marte [[Mors]]
+35	25	Diana (como Arqueira) [[Íris]]
+35	26	Pã, Vesta, Baco
+35	27	Marte
+35	28	Juno [[Éolo]]
+35	29	Netuno
+35	30	Apolo [[Ops]]
+35	31	Vulcano, Plutão
+35	32	Saturno [[Término, Astreia]]
+35	32b	Ceres
+35	31b	[Líber] [[Baco]]
+38	0	[[Dragão]]
+38	1	Deus [[Cisne, Falcão]]
+38	2	Homem
+38	3	Mulher [[Abelha]]
+38	4	Unicórnio
+38	5	Basilisco
+38	6	Fênix, Leão, Criança [[Aranha, Pelicano]]
+38	7	Iynx (torcicolo) [[Corvo, todas as aves carniceiras]]
+38	8	Hermafrodita, Chacal [[Serpentes gêmeas, Monoceros de Astris]]
+38	9	Elefante [[Tartaruga, Sapo]]
+38	10	Esfinge
+38	11	Águia, Homem (Querubim do Ar) [[Boi]]
+38	12	Andorinha, Íbis, Macaco [[Serpentes gêmeas, peixes, híbridos]]
+38	13	Cão [[Cegonha, Camelo]]
+38	14	Pardal, Pomba [[Cisne, Porca, as aves em geral]]
+38	15	Carneiro, Coruja
+38	16	Touro (Querubim da Terra) [[todos os animais de carga]]
+38	17	Pega, híbridos [[Papagaio, Zebra, Pinguim]]
+38	18	Caranguejo, Tartaruga, Esfinge [[Baleia, todos os animais de transporte]]
+38	19	Leão (Querubim do Fogo) [[Gato, Tigre, Serpente, Mulher]]
+38	20	Virgem, Anacoreta, qualquer pessoa ou animal solitário [[Rinoceronte]]
+38	21	Águia [[Louva-a-deus]]
+38	22	Elefante [[Aranha]]
+38	23	Águia-Serpente-Escorpião (Querubim da Água)
+38	24	Escorpião, Besouro, Lagostim ou Lagosta, Lobo [[todos os répteis, Tubarão, Piolho-do-púbis]]
+38	25	Centauro, Cavalo, Hipogrifo, Cão
+38	26	Bode, Asno [[Ostra]]
+38	27	Cavalo, Urso, Lobo [[Javali]]
+38	28	Homem ou Águia (Querubim do Ar), Pavão
+38	29	Peixe, Golfinho [[Besouro, Cão, Chacal]]
+38	30	Leão, Gavião [[Leopardo]]
+38	31	Leão (Querubim do Fogo)
+38	32	Crocodilo
+38	32b	Touro (Querubim da Terra)
+38	31b	Esfinge (se armada de espada e coroada)
+39	0	[[Lótus, Rosa]]
+39	1	Amendoeira em flor [[Figueira-de-bengala]]
+39	2	Amaranto [[Visco, Árvore Bodhi ou Pipal]]
+39	3	Cipreste, Papoula-do-ópio [[Lótus, Lírio, Hera]]
+39	4	Oliveira, Trevo [[Papoula-do-ópio]]
+39	5	Carvalho, Noz-vômica, Urtiga [[Nogueira-americana]]
+39	6	Acácia, Louro, Loureiro, Videira [[Carvalho, Tojo, Freixo, Aswata]]
+39	7	Rosa [[Loureiro]]
+39	8	Moly, Anhalonium lewinii (peiote)
+39	9	[Figueira-de-bengala], Mandrágora, Damiana [[Ginseng, Ioimbe]]
+39	10	Salgueiro, Lírio, Hera [[Romã, todos os cereais]]
+39	11	Álamo-tremedor
+39	12	Verbena, Erva-de-mercúrio, Manjerona, Palmeira [[Tília]]
+39	13	Amêndoa, Artemísia, Aveleira (como Lua), Lunária, Ranúnculo [[Amieiro, Romã]]
+39	14	Murta, Rosa, Trevo [[Figo, Pêssego, Maçã]]
+39	15	Lírio-tigre, Gerânio [[Oliveira]]
+39	16	Malva [[todas as árvores gigantes]]
+39	17	Híbridos, Orquídeas
+39	18	Lótus
+39	19	Girassol
+39	20	Campânula-branca, Lírio, Narciso [[Visco]]
+39	21	Hissopo, Carvalho, Choupo, Figueira [[Arnica, Cedro]]
+39	22	Aloé
+39	23	Lótus, todas as plantas aquáticas
+39	24	Cacto [[Urtiga, todas as plantas venenosas]]
+39	25	Junco
+39	26	Cânhamo-indiano, Raiz de orquídea, Cardo [[Ioimbe]]
+39	27	Absinto, Arruda
+39	28	[Oliveira], Coqueiro
+39	29	Organismos unicelulares, Ópio [[Mangue]]
+39	30	Girassol, Loureiro, Heliotrópio [[Noz, Galanga]]
+39	31	Papoula-vermelha, Hibisco, Urtiga [[todas as flores escarlates]]
+39	32	Freixo, Cipreste, Heléboro, Teixo, Beladona [[Olmo]]
+39	32b	Carvalho, Hera [[Cereais]]
+39	31b	Amendoeira em flor
+40	0	[[Safira-estrela, Diamante negro]]
+40	1	Diamante
+40	2	Rubi-estrela, Turquesa
+40	3	Safira-estrela, Pérola
+40	4	Ametista, Safira [[Lápis-lazúli]]
+40	5	Rubi
+40	6	Topázio, Diamante amarelo
+40	7	Esmeralda
+40	8	Opala, especialmente a Opala de fogo
+40	9	Quartzo
+40	10	Cristal de rocha
+40	11	Topázio
+40	12	Opala, Ágata
+40	13	Pedra-da-lua, Pérola, Cristal
+40	14	Esmeralda, Turquesa
+40	15	Rubi
+40	16	Topázio
+40	17	Alexandrita, Turmalina, Espato-da-islândia
+40	18	Âmbar
+40	19	Olho-de-gato
+40	20	Peridoto
+40	21	Ametista, Lápis-lazúli
+40	22	Esmeralda
+40	23	Berilo ou Água-marinha
+40	24	Pedra-de-cobra [[Turquesa esverdeada]]
+40	25	Jacinto
+40	26	Diamante negro
+40	27	Rubi, qualquer pedra vermelha
+40	28	Vidro artificial [[Calcedônia]]
+40	29	Pérola
+40	30	Crisólita
+40	31	Opala de fogo
+40	32	Ônix
+40	32b	Sal
+40	31b	Diamante negro
+41	0	[[Nenhuma atribuição possível]]
+41	1	Suástica ou cruz Fylfot, Coroa [[A Lâmpada]]
+41	2	Lingam, o Manto Interior de Glória [[A Palavra]]
+41	3	Yoni, o Manto Exterior de Ocultação [[A Taça, a Estrela Brilhante]]
+41	4	O Bastão, o Cetro ou o Cajado
+41	5	A Espada, a Lança, o Flagelo ou a Corrente
+41	6	O Lâmen ou a Rosa-Cruz
+41	7	A Lâmpada e o Cinto
+41	8	Os Nomes, os Versículos e o Avental
+41	9	Os Perfumes e as Sandálias [[O Altar]]
+41	10	O Círculo e o Triângulo Mágicos
+41	11	O Punhal ou o Leque
+41	12	O Bastão ou o Caduceu
+41	13	Arco e Flecha
+41	14	O Cinto
+41	15	Os Chifres, a Energia, o Buril
+41	16	O Trabalho de Preparação [[O Trono e o Altar]]
+41	17	O Tripé
+41	18	A Fornalha [[A Taça ou o Santo Graal]]
+41	19	A Disciplina (Preliminar) [[Bastão da Fênix]]
+41	20	A Lâmpada e o Bastão (Força Viril reservada), o Pão [[Bastão do Lótus]]
+41	21	O Cetro
+41	22	A Cruz do Equilíbrio [[A Balança]]
+41	23	A Taça e a Cruz do Sofrimento, o Vinho [[Água Lustral]]
+41	24	A Dor da Obrigação [[O Juramento]]
+41	25	A Flecha (aplicação rápida e direta da força)
+41	26	A Força Secreta, a Lâmpada
+41	27	A Espada
+41	28	O Incensário ou o Aspersório
+41	29	O Crepúsculo do Lugar e o Espelho Mágico
+41	30	O Lâmen ou o Arco e Flecha
+41	31	O Bastão ou a Lâmpada, a Pirâmide do Fogo [[O Turíbulo]]
+41	32	Uma Foice
+41	32b	O Pantáculo ou [[o Pão e]] o Sal
+41	31b	[[O Ovo Alado]]
+42	0	[[Nenhuma atribuição possível]]
+42	1	Âmbar-gris
+42	2	Almíscar
+42	3	Mirra, Algália
+42	4	Cedro
+42	5	Tabaco
+42	6	Olíbano
+42	7	Benjoim, Rosa, Sândalo vermelho
+42	8	Estoraque
+42	9	Jasmim, Ginseng, todas as raízes odoríferas
+42	10	Dítamo-de-creta
+42	11	Gálbano
+42	12	Almécega, Sândalo branco, [[Noz-moscada]], Macis, Estoraque, todos os odores fugazes
+42	13	Sangue menstrual, Cânfora, Aloés, todos os odores doces e virginais
+42	14	Sândalo, Murta, todos os odores suaves e voluptuosos
+42	15	Sangue-de-dragão
+42	16	Estoraque
+42	17	Absinto
+42	18	Ônica
+42	19	Olíbano
+42	20	Narciso
+42	21	Açafrão, todos os odores generosos
+42	22	Gálbano
+42	23	Ônica, Mirra
+42	24	Benjoim-do-sião, Opopônaco
+42	25	Lenho-de-aloés
+42	26	Almíscar, Algália (e também os perfumes saturninos)
+42	27	Pimenta, Sangue-de-dragão, todos os odores quentes e pungentes
+42	28	Gálbano
+42	29	Âmbar-gris [[Fluido menstrual]]
+42	30	Olíbano, Canela, todos os odores gloriosos
+42	31	Olíbano, todos os odores ígneos
+42	32	Assa-fétida, Escamônea, Índigo, Enxofre (todos os odores malignos)
+42	32b	Estoraque, todos os odores densos e pesados
+42	31b	[[Nenhuma atribuição possível]]
+101	1	Criaturas viventes sagradas
+101	2	Rodas
+101	3	Os ativos, tronos
+101	4	Os brilhantes
+101	5	Serpentes ígneas
+101	6	Reis
+101	7	Deuses
+101	8	Filhos de Deus
+101	9	Anjos dos elementos
+101	10	Chamas

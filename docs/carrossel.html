@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>DWTW93 — carrossel do LinkedIn</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Frank+Ruhl+Libre:wght@400;700&display=swap">
+<style>
+  /* Slides de 1080×1350 empilhados; ferramentas/captura.swift corta um por página do PDF. */
+  :root { --fundo: #0d0a08; --texto: #ecdfc3; --fraco: #a3927a; --ouro: #c9a24a; --ouro-claro: #ecc977; --linha: rgba(201,162,74,.35); }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--fundo); color: var(--texto); font-family: "Cormorant Garamond", Georgia, serif; }
+  .slide {
+    width: 1080px; height: 1350px; padding: 90px 84px; position: relative; overflow: hidden;
+    display: flex; flex-direction: column; gap: 34px;
+    /* sem transparência: o PDF do WebKit não preserva gradientes com alfa */
+    background: linear-gradient(180deg, #24180f 0%, #140e09 38%, var(--fundo) 70%);
+    border-top: 6px solid var(--ouro);
+  }
+  .slide::after {   /* rodapé de cada slide */
+    content: attr(data-n) "  ·  DWTW93"; position: absolute; bottom: 44px; left: 84px; right: 84px;
+    border-top: 1px solid var(--linha); padding-top: 18px; font: 500 20px Cinzel, serif; letter-spacing: .3em; color: var(--fraco);
+  }
+  h1 { font: 700 76px/1.05 Cinzel, serif; letter-spacing: .04em; }
+  h2 { font: 700 54px/1.12 Cinzel, serif; letter-spacing: .03em; }
+  h1 em, h2 em { font-style: normal; color: var(--ouro); }
+  .rotulo { font: 500 22px Cinzel, serif; letter-spacing: .32em; text-transform: uppercase; color: var(--ouro); }
+  p { font-size: 36px; line-height: 1.38; }
+  .fraco { color: var(--fraco); }
+  .heb { font-family: "Frank Ruhl Libre", serif; unicode-bidi: isolate; }
+  .captura { width: 100%; border-radius: 14px; border: 2px solid var(--linha); box-shadow: 0 24px 60px rgba(0,0,0,.7); }
+  .lista { display: grid; gap: 18px; font-size: 34px; }
+  .lista div { display: flex; gap: 18px; align-items: baseline; }
+  .lista b { color: var(--ouro-claro); font-family: Cinzel, serif; font-size: 30px; min-width: 40px; }
+  .numeros { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+  .numeros div { border: 1px solid var(--linha); border-radius: 12px; padding: 22px 26px; background: rgba(255,255,255,.02); }
+  .numeros strong { display: block; font: 700 64px Cinzel, serif; color: var(--ouro); }
+  .numeros span { font-size: 28px; color: var(--fraco); }
+  .caixa { border: 1px solid var(--linha); border-radius: 14px; padding: 30px 34px; background: rgba(0,0,0,.25); }
+  .conta { font-size: 46px; text-align: center; line-height: 1.6; }
+  .ok { color: #6fcf8a; } .erro { color: #e0a24a; }
+  .fluxo { display: grid; gap: 14px; }
+  .fluxo div:not(.seta) { display: flex; align-items: center; gap: 22px; font-size: 32px; border: 1px solid var(--linha);
+    border-radius: 12px; padding: 16px 26px; background: rgba(255,255,255,.02); }
+  .fluxo div:not(.seta) b { font: 700 26px Cinzel, serif; color: var(--ouro); min-width: 170px; }
+  .seta { text-align: center; color: var(--ouro); font-size: 28px; line-height: .6; }
+  .duas { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+  .capa { justify-content: center; align-items: center; text-align: center; }
+  .capa img { width: 330px; height: 330px; filter: drop-shadow(0 0 60px rgba(242,196,98,.4)); }
+  .capa h1 { font-size: 120px; letter-spacing: .12em; }
+  .tags { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
+  .tags span { font: 500 22px Cinzel, serif; letter-spacing: .14em; border: 1px solid var(--linha); border-radius: 4px; padding: 10px 18px; color: var(--ouro-claro); }
+</style>
+</head>
+<body>
+
+<section class="slide capa" data-n="1 / 7">
+  <img src="../cabala/static/img/logo.png" alt="">
+  <h1>DWTW<em>93</em></h1>
+  <p>Transformei livros esotéricos de mais de cem anos<br>em um site interativo — com Python e SQL.</p>
+  <div class="tags"><span>Python</span><span>SQL</span><span>Flask</span><span>JavaScript</span><span>ETL de PDFs</span></div>
+  <p class="fraco" style="font-size:30px">Victor Haruo · Sistemas de Informação · FIAP</p>
+</section>
+
+<section class="slide" data-n="2 / 7">
+  <span class="rotulo">O problema</span>
+  <h2>Os dados estavam presos em <em>PDFs antigos</em></h2>
+  <p>O <i>Liber 777</i> (1909) e o <i>Sepher Sephiroth</i> (1912) são dicionários de símbolos — mas só existem como PDFs com tabelas em duas colunas e o hebraico numa fonte antiga.</p>
+  <div class="caixa conta">
+    <span class="fraco">o PDF diz</span> <b>\yhla</b><br>
+    <span class="fraco">a fonte inverte e troca as letras →</span> <span class="heb" dir="rtl">אלהים</span>
+  </div>
+  <p>Extrair esse texto “do jeito comum” devolve colunas embaralhadas e letras sem sentido.</p>
+</section>
+
+<section class="slide" data-n="3 / 7">
+  <span class="rotulo">A solução</span>
+  <h2>Um pipeline de <em>dados</em> de ponta a ponta</h2>
+  <div class="fluxo">
+    <div><b>PDF</b>coordenadas de cada linha (Swift · PDFKit)</div><div class="seta">▼</div>
+    <div><b>Parser</b>reconstrói o layout e decodifica a fonte (Python)</div><div class="seta">▼</div>
+    <div><b>Validação</b>guematria como <i>checksum</i> + correções revisadas</div><div class="seta">▼</div>
+    <div><b>SQLite</b>modelo EAV para as tábuas · índices · views</div><div class="seta">▼</div>
+    <div><b>Flask</b>API JSON · modo público configurável</div><div class="seta">▼</div>
+    <div><b>Interface</b>JavaScript puro · módulos ES · SVG</div>
+  </div>
+</section>
+
+<section class="slide" data-n="4 / 7">
+  <span class="rotulo">O pulo do gato</span>
+  <h2>A própria regra do domínio virou o <em>teste</em></h2>
+  <p>Cada letra hebraica tem um valor. No dicionário, cada palavra está sob o número que ela soma — então a soma <b>valida a extração</b>.</p>
+  <div class="caixa conta">
+    <span class="heb" dir="rtl">משיה</span> = 353 <span class="erro">≠ 358 ⚠</span> &nbsp;<span class="fraco">erro do PDF</span><br>
+    <span class="heb" dir="rtl">משיח</span> = 358 <span class="ok">✓</span> &nbsp;<span class="fraco">corrigido</span>
+  </div>
+  <div class="numeros">
+    <div><strong>2.327</strong><span>verbetes validados</span></div>
+    <div><strong>79</strong><span>erros do PDF corrigidos</span></div>
+    <div><strong>3.890</strong><span>palavras reconferidas no site</span></div>
+    <div><strong>76</strong><span>testes automatizados</span></div>
+  </div>
+</section>
+
+<section class="slide" data-n="5 / 7">
+  <span class="rotulo">O resultado</span>
+  <h2>A Árvore da Vida, <em>interativa</em></h2>
+  <img class="captura" src="capturas/03-arvore.jpg" alt="">
+  <p>Dez esferas e vinte e dois caminhos em SVG, nas quatro escalas de cor do 777. Cada caminho abre suas correspondências e as cartas do Tarô ligadas a ele.</p>
+</section>
+
+<section class="slide" data-n="6 / 7">
+  <span class="rotulo">E mais</span>
+  <h2>Do número à <em>carta</em></h2>
+  <img class="captura" src="capturas/05-consulta.jpg" alt="">
+  <div class="duas">
+    <img class="captura" src="capturas/06-sigilos.jpg" alt="">
+    <img class="captura" src="capturas/08-numero.jpg" alt="">
+  </div>
+  <p style="font-size:30px">Consulta ao Tarô · sigilos de Agrippa · a conta de cada palavra, verificada.</p>
+</section>
+
+<section class="slide" data-n="7 / 7">
+  <span class="rotulo">Por trás</span>
+  <h2>O que este projeto <em>exercita</em></h2>
+  <div class="lista">
+    <div><b>01</b>ETL de PDFs com layout complexo</div>
+    <div><b>02</b>Modelagem SQL e qualidade de dados</div>
+    <div><b>03</b>API REST com Flask e testes com pytest</div>
+    <div><b>04</b>Front-end sem framework, acessível e responsivo</div>
+    <div><b>05</b>Curadoria e crédito de fontes (Crowley, Golden Dawn, Del Debbio &amp; Grola, Sefaria)</div>
+  </div>
+  <p class="fraco" style="font-size:30px">Desenvolvido com o Claude Code como assistente de programação.</p>
+  <p style="text-align:center; font-family:Cinzel; letter-spacing:.1em; color:var(--ouro-claro)">Link nos comentários ↓</p>
+</section>
+
+</body>
+</html>
