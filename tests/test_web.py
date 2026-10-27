@@ -45,3 +45,14 @@ def test_personalidade_da_corte_some_no_modo_publico(cliente, monkeypatch):
     monkeypatch.setattr(web, 'PUBLICO', True)
     rei = next(c for c in cliente.get('/api/consulta').json if c['id'] == 'paus-14')
     assert rei['mbti'] is None
+
+
+def test_config_lista_so_os_metodos_prontos(cliente):
+    metodos = cliente.get('/api/config').json['metodos']
+    assert {'padrao', 'gadol', 'ordinal'} <= set(metodos)
+    try:
+        from cabala.gematria import gematria
+        gematria('א', 'katan')
+        assert 'katan' in metodos
+    except NotImplementedError:
+        assert 'katan' not in metodos      # enquanto mispar_katan() for um TODO, o site não o oferece

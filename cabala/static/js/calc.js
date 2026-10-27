@@ -1,11 +1,19 @@
 // Calculadora: guematria em tempo real, com escolha de método.
-import { $app, adiar, api, botaoEstrela, cartoes, esc, favoritos, ligarSeg, ligarTeclado,
+import { $app, adiar, api, botaoEstrela, cartoes, config, esc, favoritos, ligarSeg, ligarTeclado,
   ornamento, seg, teclado } from './util.js';
 
-export const METODOS = [['padrao', 'Padrão'], ['gadol', 'Gadol'], ['katan', 'Katan'], ['ordinal', 'Ordinal']];
+const TODOS_METODOS = [['padrao', 'Padrão'], ['gadol', 'Gadol'], ['katan', 'Katan'], ['ordinal', 'Ordinal']];
 let metodo = 'padrao';
 
-export function telaCalc(inicial = '') {
+// só os métodos que o servidor já sabe calcular (o Katan aparece quando mispar_katan() existir)
+export async function metodosDisponiveis() {
+  const { metodos } = await config();
+  return TODOS_METODOS.filter(([m]) => metodos.includes(m));
+}
+
+export async function telaCalc(inicial = '') {
+  const METODOS = await metodosDisponiveis();
+  if (!METODOS.some(([m]) => m === metodo)) metodo = 'padrao';
   const favs = favoritos();
   $app.innerHTML = `
     <h1>Calculadora de Guematria</h1>

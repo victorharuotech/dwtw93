@@ -1,6 +1,9 @@
 // Ferramentas: métodos de guematria, comparação, Temurah e Notariqon.
-import { METODOS } from './calc.js';
+import { metodosDisponiveis } from './calc.js';
 import { $app, adiar, api, esc, heb, ornamento, teclado } from './util.js';
+
+let METODOS = [];
+const DESCRICAO = { padrao: 'padrão', gadol: 'Gadol (finais 500–900)', katan: 'Katan (unidades)', ordinal: 'ordinal (posição)' };
 
 async function valores(texto) {
   return Promise.all(METODOS.map(async ([m, nome]) => {
@@ -18,8 +21,7 @@ const ferramentas = {
   async metodos(q) {
     if (!q.a) return '';
     const vs = await valores(q.a);
-    return `<table class="metodos">${vs.map((x) => `<tr><td>${x.nome}</td><td class="v">${celula(x)}</td></tr>`).join('')}</table>
-      ${vs.some((x) => x.erro) ? '<p class="legenda">— Mispar Katan: implemente <code>mispar_katan()</code> em cabala/gematria.py</p>' : ''}`;
+    return `<table class="metodos">${vs.map((x) => `<tr><td>${x.nome}</td><td class="v">${celula(x)}</td></tr>`).join('')}</table>`;
   },
   async comparar(q) {
     if (!q.a || !q.b) return '';
@@ -52,13 +54,19 @@ const ferramentas = {
 };
 
 const CARTOES = [
-  ['metodos', 'Métodos', 'O mesmo nome por quatro contagens: padrão, Gadol (finais 500–900), Katan (unidades) e ordinal (posição).', ['יהוה']],
+  ['metodos', 'Métodos', '', ['יהוה']],   // a descrição depende dos métodos disponíveis
   ['comparar', 'Comparar', 'Duas palavras lado a lado; as linhas douradas marcam onde os valores coincidem.', ['אחד', 'אהבה']],
   ['temurah', 'Temurah', 'Permutações do alfabeto: Atbash (א↔ת), Albam (א↔ל) e Avgad (א→ב).', ['ששך']],
   ['notariqon', 'Notariqon', 'Uma frase reduzida às iniciais e às finais de cada palavra.', ['אתה גבור לעולם אדני']],
 ];
 
-export function telaFerramentas() {
+function listar(itens) {
+  return itens.length > 1 ? `${itens.slice(0, -1).join(', ')} e ${itens.at(-1)}` : itens.join('');
+}
+
+export async function telaFerramentas() {
+  METODOS = await metodosDisponiveis();
+  CARTOES[0][2] = `O mesmo nome por ${METODOS.length} contagens: ${listar(METODOS.map(([m]) => DESCRICAO[m]))}.`;
   $app.innerHTML = `
     <h1>Ferramentas</h1>
     <p class="sub">O teclado escreve no último campo em que você clicou.</p>

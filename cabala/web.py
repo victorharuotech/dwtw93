@@ -150,7 +150,19 @@ def api_caminho(chave):
 
 @app.get('/api/config')
 def api_config():
-    return jsonify({'publico': PUBLICO})
+    return jsonify({'publico': PUBLICO, 'metodos': metodos_prontos()})
+
+
+def metodos_prontos():
+    """Métodos de guematria que já funcionam (o Katan depende de mispar_katan() em gematria.py)."""
+    prontos = []
+    for metodo in METODOS:
+        try:
+            gematria('א', metodo)
+            prontos.append(metodo)
+        except NotImplementedError:
+            pass
+    return prontos
 
 
 @app.get('/api/fontes')
